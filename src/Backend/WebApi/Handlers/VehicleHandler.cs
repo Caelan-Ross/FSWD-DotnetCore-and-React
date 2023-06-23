@@ -82,7 +82,7 @@ namespace WebApi.Handlers
         }
 
         // Delete
-        public static void DeleteMessage(Vehicle vehicle)
+        public static void DeleteVehicle(Vehicle vehicle)
         {
             using(ApplicationDbContext _context = new ApplicationDbContext())
             {

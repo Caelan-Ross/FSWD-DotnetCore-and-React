@@ -1,5 +1,4 @@
 ﻿using WebApi.Models;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace WebApi.Data
@@ -68,6 +67,22 @@ namespace WebApi.Data
                     {
                         MessageId = 5,
                         Text = "The meaning of life isn't about the what is seen through the eye of the beholder, but what the brain behind it percieves."
+                    }
+                );
+
+            modelBuilder.Entity<Vehicle>()
+                .HasData(
+                    new Vehicle
+                    {
+                        VehicleId = 1,
+                        VIN = "11111111111111111",
+                        ModelYear = 2003,
+                        Colour = "Blue",
+                        Manufacturer = "TestManufacturer",
+                        Model = "TestModel",
+                        TrimLevel = "TestTrim",
+                        PurchaseDate = DateTime.Now,
+                        PurchaseAmount = 1000
                     }
                 );
         }
