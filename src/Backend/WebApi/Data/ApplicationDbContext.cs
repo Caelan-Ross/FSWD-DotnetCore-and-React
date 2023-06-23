@@ -19,6 +19,9 @@ namespace WebApi.Data
         // Order Dbset from child table to parent table
         public DbSet<Message> Messages { get; set; }
 
+        public DbSet<Vehicle> Vehicles { get; set; }
+
+
         /************************
          *      CONNECTION       *
          ************************/
