@@ -911,3 +911,6 @@ $RECYCLE.BIN/
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,visualstudio,visualstudiocode,react,reactnative,csharp,dotnetcore,web
+*.zip
+src/.vscode/tasks.json
+src/.vscode/launch.json
