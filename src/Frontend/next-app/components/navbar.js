@@ -13,6 +13,7 @@ export default function Navbar() {
               <NewLink href="/static" text="Static" />
               <NewLink href="/dynamic" text="Dynamic" />
               <NewLink href="/news" text="News" />
+              <NewLink href="/vehicles" text="Vehicles" />
             </div>
           </Toolbar>
         </AppBar>

@@ -4,7 +4,6 @@ export default async function handler(req, res) {
     if(!["GET"].includes(req.method)) return res.status(405).json({error: "Method not allowed."})
 
     if(req.method === "GET"){
-        console.log("GET")
         var config = {
             headers:{
               "Content-Type": "application/json"
