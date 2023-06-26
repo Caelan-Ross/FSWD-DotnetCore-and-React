@@ -1,6 +1,6 @@
-# EXSM 3946 .Net Core API w/ React - 02
+# EXSM 3946 .Net Core API w/ React - 04
 
-This project is a .NET Core application with Next.js front-end, leveraging multiple APIs, Entity Framework for database management, and MUI for styling. It features three pages: home, static, dynamic, and news. The dynamic page utilizes the API chain to fetch data from the Entity Framework database. While the news page leverages the "newsapi" api to gather the top 10 most recent news stories and displays a brief portion of their information for you to read. While also allowing you to search the api as well.
+This project is a .NET Core application with Next.js front-end, leveraging multiple APIs, Entity Framework for database management, and MUI for styling. It features three pages: home, static, dynamic, and news. The dynamic page utilizes the API chain to fetch data from the Entity Framework database. While the news page leverages the "newsapi" api to gather the top 10 most recent news stories and displays a brief portion of their information for you to read. While also allowing you to search the api as well. It also includes a basic vehicle managment section where you can create, view, view all, delete, an update vehicles through an api connection to the database.
 
 ## Table of Contents
 
